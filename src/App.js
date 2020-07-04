@@ -1,12 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { StudentProvider } from './data/student/StudentContext';
+import StudentList from './components/StudentList';
+
+
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <StudentProvider>
+      <div className="App">
+        <StudentList></StudentList>
+      </div>
+    </StudentProvider>
+    
   );
 }
 
