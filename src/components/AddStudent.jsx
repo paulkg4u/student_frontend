@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { StudentContext } from '../data/student/StudentContext'
-
+import { useHistory } from 'react-router-dom';
 
 
 export default function AddStudent() {
@@ -12,6 +12,7 @@ export default function AddStudent() {
     const [gpa, setGpa] = useState(1);
 
     const { createStudent } = useContext(StudentContext)
+    const history = useHistory();
 
     const submitForm = (e) => {
         e.preventDefault();
@@ -25,7 +26,7 @@ export default function AddStudent() {
             gpa
         }
         createStudent(newStudent);
-
+        history.push("/");
     }
     return (
         <div>

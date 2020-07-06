@@ -11,7 +11,7 @@ export default function Student({student}) {
             <br/>
             Gender : {student.gender}
             <br/>
-            Class : {student.class}
+            Class : {student.student_class}
             <br/>
             GPA : {student.gpa}
             <br/>
