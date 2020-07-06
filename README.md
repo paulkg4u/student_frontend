@@ -1,15 +1,15 @@
 ## Description
     Student Management frontend app created with react
-    ### Tools/Libraries
-    - React
-    - React Router
-    - Context API
-    - Axios
+### Tools/Libraries
+- React
+- React Router
+- Context API
+- Axios
 
-    ### Pending
-    - Styling
-    - Add material ui
-    - add authentication and backend
+### Pending
+- Styling
+- Add material ui
+- add authentication and backend
 
 ### `npm start`
 
