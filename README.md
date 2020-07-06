@@ -1,5 +1,5 @@
 ## Description
-    Student Management frontend app created with react
+Student Management frontend app created with react
 ### Tools/Libraries
 - React
 - React Router
