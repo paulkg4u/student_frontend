@@ -11,7 +11,7 @@ export default (state = initialState, action) => {
                 students : state.students.filter(student => student.id !== action.payload)
             }
 
-        case 'ADD_STUDENT':
+        case 'CREATE_STUDENT':
             return {
                 ...state,
                 students : [action.payload, ...state.students]

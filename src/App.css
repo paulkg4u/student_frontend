@@ -5,3 +5,7 @@
 .student-item{
     margin-bottom : 20px;
 }
+
+.student-controls button{
+    margin: 10px;
+}

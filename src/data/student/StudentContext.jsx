@@ -13,7 +13,7 @@ const initialState = {
                 "Mark's sister"
             ],
             gpa : 3.5,
-            class : 4
+            student_class : 4
         },
         {   
             id : '2',
@@ -25,7 +25,7 @@ const initialState = {
                 "Steve's sister"
             ],
             gpa : 3.3,
-            class : 4
+            student_class : 4
         },
         {   
             id : '3',
@@ -37,7 +37,7 @@ const initialState = {
                 "Sarah's sister"
             ],
             gpa : 3.5,
-            class : 4
+            student_class : 4
         },
         {   
             id : '4',
@@ -49,7 +49,7 @@ const initialState = {
                 "Virat's sister"
             ],
             gpa : 3.5,
-            class : 4
+            student_class : 4
         },
         {   
             id : '5',
@@ -61,7 +61,7 @@ const initialState = {
                 "Suzie's sister"
             ],
             gpa : 3.5,
-            class : 4
+            student_class : 4
         },
         {   
             id : '6',
@@ -73,7 +73,7 @@ const initialState = {
                 "Jason's sister"
             ],
             gpa : 4.1,
-            class : 6
+            student_class : 6
         },
         {   
             id : '7',
@@ -85,7 +85,7 @@ const initialState = {
                 "Mithali's sister"
             ],
             gpa : 3.5,
-            class : 4
+            student_class : 4
         }
     ]
 }

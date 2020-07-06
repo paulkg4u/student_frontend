@@ -1,4 +1,4 @@
-import React, {useContext}  from 'react'
+import React, {useContext, Link}  from 'react'
 import { StudentContext } from '../data/student/StudentContext'
 
 
@@ -14,6 +14,15 @@ export default function Student({student}) {
             Class : {student.class}
             <br/>
             GPA : {student.gpa}
+            <br/>
+            <div className="student-controls">
+                <button onClick={() => deleteStudent(student.id)} className="delete-btn">Delete Student</button>
+                {/* <Link>
+                    
+                </Link> */}
+                <button onClick={() => (student.id)} className="delete-btn">Details</button>
+            </div>
+            
         </div>
     )
 }
