@@ -1,8 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+    Student Management frontend app created with react
+    ### Tools/Libraries
+    - React
+    - React Router
+    - Context API
+    - Axios
 
-## Available Scripts
-
-In the project directory, you can run:
+    ### Pending
+    - Styling
+    - Add material ui
+    - add authentication and backend
 
 ### `npm start`
 
