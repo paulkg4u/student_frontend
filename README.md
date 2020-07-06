@@ -7,6 +7,7 @@ Student Management frontend app created with react
 - Axios
 
 ### Pending
+- Dockerize
 - Styling
 - Add material ui
 - add authentication and backend
