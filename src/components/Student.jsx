@@ -1,6 +1,6 @@
-import React, {useContext, Link}  from 'react'
+import React, {useContext}  from 'react'
 import { StudentContext } from '../data/student/StudentContext'
-
+import { NavLink } from 'react-router-dom';
 
 
 export default function Student({student}) {
@@ -17,10 +17,10 @@ export default function Student({student}) {
             <br/>
             <div className="student-controls">
                 <button onClick={() => deleteStudent(student.id)} className="delete-btn">Delete Student</button>
-                {/* <Link>
-                    
-                </Link> */}
-                <button onClick={() => (student.id)} className="delete-btn">Details</button>
+                <NavLink to = {`/studentDetail/${student.id}`}>
+                    <button  className="delete-btn">Details</button>    
+                </NavLink>
+                
             </div>
             
         </div>

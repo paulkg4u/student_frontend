@@ -6,6 +6,7 @@ import Student from './Student'
 
 export default function StudentList() {
     const { students } = useContext(StudentContext)
+    
     return (
         <div className = "student-container">
             <h3>
